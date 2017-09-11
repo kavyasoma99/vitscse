@@ -1,31 +1,25 @@
 import java.util.Date;
-import java.util.*;
 
 /**
  * Class that stores information about the concrete student
- *
+ * 
  * DO NOT REMOVE given methods, but you can add new methods/fields/constructor
  * and change the given methods implementation. For example you can change implementation for equals()
  * or hashCode() method
- *
+ * 
  */
 public class Student implements Comparable {
 
 	/**
 	 * student id
 	 */
-	 Scanner s=new Scanner(System.in);
 	private int id;
-	System.out.println("student id:");
-	id=s.nextInt();
 
 	/**
 	 * student name and surname separated by the whitespace for example:
 	 * fullName = "David Luis";
 	 */
 	private String fullName;
-	System.out.println("student name:");
-	fullName=s.nextLIne();
 
 	/**
 	 * student date of birth in "yyyy-MM-dd" format
@@ -85,8 +79,8 @@ public class Student implements Comparable {
 	public boolean equals(Object obj) {
 		return super.equals(obj);
 	}
-
-
+	
+	
 	/**
 	 * DO NOT change this method it will be used during the task check
 	 */
