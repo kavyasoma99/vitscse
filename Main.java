@@ -2,7 +2,7 @@ import java.util.Date;
 public class Main {
 
 	public static void main(String[] args) {
-		
+
 		StudentGroup stg=new StudentGroup(10);
 
 	Date d=new Date(1999,9,10);
